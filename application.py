@@ -41,3 +41,4 @@ def bonjour_language():
 
 
 app.run()
+print('ok')
