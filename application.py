@@ -15,7 +15,7 @@ bonjours = [
 
 @app.route('/', methods=['GET'])
 def home():
-    return "<h1>Hi all! Please stay in your kot!</h1>"
+    return "<h1>Hi all! Please stay in your kot and practise social distancing!</h1>"
 
 
 @app.route(baseUrl + 'bonjours/all', methods=['GET'])
